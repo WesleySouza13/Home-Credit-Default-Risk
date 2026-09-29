@@ -1,0 +1,9 @@
+SELECT DISTINCT
+count(SK_ID_BUREAU) as contagem, 
+CREDIT_ACTIVE
+
+
+
+
+FROM bureau
+GROUP by  CREDIT_ACTIVE
